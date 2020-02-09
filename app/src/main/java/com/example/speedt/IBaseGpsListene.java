@@ -2,7 +2,7 @@ package com.example.speedt;
 import android.location.Location;
 import android.location.LocationListener;
 import android.os.Bundle;
-
+//implement LocationListener
 class IBaseGpsListener implements LocationListener {
     @Override
     public void onLocationChanged(Location location) {
